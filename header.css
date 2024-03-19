@@ -1,0 +1,57 @@
+.header{
+  position: fixed;
+  right: 0px;
+  left:0px;
+  top:0px
+}
+header ul{
+  height: 80px;
+  border-top-width: 6px;
+  border-bottom-style:solid;
+  border-bottom-color: rgb(83, 163, 34);
+  display: flex;
+  flex: 1;
+  align-items:  center;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  background-color: rgb(45, 44, 44);
+  color:white;
+  padding-right:20px;
+}
+
+
+header ul li{
+  cursor: pointer;
+}
+
+.spotify {
+  display: flex;
+  align-items: center;
+  color: #03f003;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-right: 70px;
+}
+
+.spotify img {
+  width: 50px;
+}
+
+.search-bar{
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar img{
+  background-color: white;
+  width: 50px;
+  height: 38px;
+  border-radius: 3px;
+}
+.search-bar input{
+  width: 700px;
+  height: 40px;
+  border-radius: 3px;
+}

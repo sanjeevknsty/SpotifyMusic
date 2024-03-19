@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='sidebar.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='header.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='bottom.css'>
+
+</head>
+
+<body>
+  <header class="header">
+    <ul>
+      <li class="spotify"><img src="Spotify-Emblem.png">Spotify</li>
+      <li class="search-bar"><input type="search"><img src="search.svg"></li>
+      <li>Settings</li>
+      <li>Notifications</li>
+      <li>Profile</li>
+    </ul>
+  </header>
+  <nav class="sidebar">
+    <ul>
+      <!-- <li class="spotify"><img  src="Spotify-Emblem.png"><span>Spotify</span></li> -->
+      <li>Home</li>
+      <li>Explore</li>
+      <li>Library</li>
+      <li>Prodcast</li>
+      <li>Prodcast</li>
+      <li>Prodcast</li>
+    </ul>
+  </nav>
+
+  <main class="main">
+    <ul class="js-song-item">
+      <li class="js-cover-image"><img src="coverimage/1.jpg"></li>
+      <li class="js-song-name">Song name</li>
+      <li class="js-song-duration">Duration</li>
+      <li class="play-button" ><i id="1" class="fa-solid js-song-item-play fa-play fa-xl"></i></li>
+
+    </ul>
+
+    <ul class="js-song-item">
+      <li class="js-cover-image"><img src="coverimage/2.jpeg"></li>
+      <li class="js-song-name">Song name</li>
+      <li class="js-song-duration">Duration</li>
+      <li class="play-button"><i id="2" class="fa-solid js-song-item-play fa-play fa-xl"></i></li>
+    </ul>
+
+    <ul class="js-song-item">
+      <li class="js-cover-image"><img src="coverimage/1.jpg"></li>
+      <li class="js-song-name">Song name</li>
+      <li class="js-song-duration">Duration</li>
+      <li class="play-button"><i id="3" class="fa-solid js-song-item-play fa-play fa-xl"></i></li>
+
+    </ul>
+    <ul class="js-song-item">
+      <li class="js-cover-image"><img src="coverimage/2.jpeg"></li>
+      <li class="js-song-name">Song name</li>
+      <li class="js-song-duration">Duration</li>
+      <li class="play-button"><i id="4" class="fa-solid js-song-item-play fa-play fa-xl"></i></li>
+    </ul>
+    <ul class="js-song-item">
+      <li class="js-cover-image"><img src="coverimage/2.jpeg"></li>
+      <li class="js-song-name">Song name</li>
+      <li class="js-song-duration">Duration</li>
+      <li class="play-button"><i id="5" class="fa-solid js-song-item-play fa-play fa-xl"></i></li>
+    </ul>
+    <ul class="js-song-item">
+      <li class="js-cover-image"><img src="coverimage/3.jpeg"></li>
+      <li class="js-song-name">Song name</li>
+      <li class="js-song-duration">Duration</li>
+      <li class="play-button"><i id="6" class="fa-solid js-song-item-play fa-play fa-xl"></i></li>
+
+    </ul>
+    <ul class="js-song-item">
+      <li class="js-cover-image"><img src="coverimage/2.jpeg"></li>
+      <li class="js-song-name">Song name</li>
+      <li class="js-song-duration">Duration</li>
+      <li class="play-button"><i id="7" class="fa-solid js-song-item-play fa-play fa-xl"></i></li>
+    </ul>
+    <ul class="js-song-item">
+      <li class="js-cover-image"><img src="coverimage/3.jpeg"></li>
+      <li class="js-song-name">Song name</li>
+      <li class="js-song-duration">Duration</li>
+      <li class="play-button"><i id="8" class="fa-solid js-song-item-play fa-play fa-xl"></i></li>
+
+    </ul>
+  </main>
+
+
+  <nav class="bottom">
+    <div class="bottom-song-cover">
+      <img id="img" src="" alt="">
+      <span id="bottom-song-name"></span>
+    </div>
+    <div class="bottom-flex">
+      <div>
+        <input id="progressBar" class="css-range" type="range" value="0" min="0" max="100">
+      </div>
+      <div class="icons">
+        <i id="backward"  class="fa-solid fa-backward fa-xl"></i>
+        <i id="master-play"  class="fa-solid fa-play fa-xl"></i>
+        <i id="forward"  class="fa-solid fa-forward fa-xl"></i>
+      </div>
+    </div>
+  </nav>
+
+
+  <script src="https://kit.fontawesome.com/393aee5831.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

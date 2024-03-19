@@ -1,0 +1,35 @@
+
+body{
+  padding: 100px 20px 120px 120px;
+  /* display: block; */
+}
+.main {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+}
+main ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+main ul li{
+  margin:5px ;
+  /* display: flex; */
+}
+
+main ul li img{
+  width: 200px;
+}
+
+.play-button{
+  display: block;
+  right:0;
+  width:60px;
+  background-color: green;
+  height: 40px;
+  border-radius: 20px;
+}
+.play-button i{
+  margin-left: 23px;
+  margin-top:18px;
+}

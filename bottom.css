@@ -1,0 +1,51 @@
+.bottom-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom{
+  position: fixed;
+  height: 100px;
+  /* padding: 20px; */
+  background-color: rgb(38, 36, 36);
+  bottom:0;
+  left:0;
+  right:0;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.css-range{
+  width:80vw;
+}
+.icons i{
+  margin-right:20px;
+  /* width:30px; */
+  cursor: pointer;
+}
+.icons{
+  margin-top:17px;
+}
+
+#progressBar{
+  color:red;
+}
+
+.bottom-song-cover{
+  color: rgb(199, 193, 193);
+  display: flex;
+  /* flex:1; */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width:100px
+}
+
+.bottom-song-cover img{
+  width:80px;
+  margin-right: 10px;
+}
